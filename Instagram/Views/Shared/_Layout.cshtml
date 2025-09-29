@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Instagram</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Instagram.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    </header>
+
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Top Icons -->
+            <div class="sidebar-top">
+                <!-- Instagram Logo -->
+                <i class="bi bi-instagram fs-3 mb-4"></i>
+
+                <!-- Menu -->
+                <i class="bi bi-house-door fs-4 mb-3" title="Home"></i>
+                <i class="bi bi-search fs-4 mb-3" title="Search"></i>
+                <img src="~/images/reel.png" alt="Reels" width="27" height="27" class="mb-3" title="Reels" />
+                <img src="~/images/icons8-chat-bubble-50.png" alt="Messages" width="27" height="27" class="mb-3" title="Messages" />
+                <i class="bi bi-plus-square fs-4 mb-3" title="Create"></i>
+                <a href="@Url.Action("Profile","Profile",new { id = 0 })" style="text-decoration:none;color:black">
+                    <i class="bi bi-person fs-4 mb-3" title="Profile"></i>
+               </a>
+            </div>
+
+            <!-- Bottom Icon -->
+            <div class="sidebar-bottom">
+                <i class="bi bi-list fs-4" title="More"></i>
+            </div>
+        </aside>
+
+
+        <!-- Feed -->
+        <main class="feed">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,82 @@
+﻿@model Instagram.Models.UserProfilePageViewModel
+
+<div class="container mt-4" style="max-width:600px;">
+    @for (int i = 0; i < Model.UserPosts.data.Count; i++)
+    {
+        var post = Model.UserPosts.data[i];
+
+        <div id="post-@post.id" class="card mb-4 shadow-sm post-card">
+            <!-- Post Header -->
+            <div class="card-header d-flex align-items-center bg-white border-0">
+                <img src="@(string.IsNullOrEmpty(Model.UserProfile?.data?.profile)
+                            ? Url.Content("~/images/defaultProfilePic.jpg")
+                            : Model.UserProfile?.data?.profile)"
+                     class="profile-pic" alt="Profile" height="40" width="40" />
+                <div>
+                    <strong>@Model.UserProfile?.data?.username</strong>
+                </div>
+                <div class="ms-auto">
+                    <span class="fw-bold" style="cursor:pointer;">•••</span>
+                </div>
+            </div>
+
+            <!-- Post Media -->
+            @if (post.media != null)
+            {
+                foreach (var item in post.media)
+                {
+                    <img src="@(string.IsNullOrEmpty(item.url)
+                                ? Url.Content("~/images/defaultProfilePic.jpg")
+                                : item.url)"
+                         alt="post"
+                         style="height:300px; width:575px; object-fit:cover;" />
+                }
+            }
+
+            <!-- Post Actions -->
+            <div class="card-body pb-2">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <div class="d-flex align-items-center">
+                        <div class="text-center me-3">
+                            <i class="bi bi-heart" style="font-size:1.6rem; cursor:pointer;"></i>
+                        </div>
+                        <div class="text-center me-3">
+                            <i class="bi bi-chat" style="font-size:1.6rem; cursor:pointer;"></i>
+                            <small class="text-muted"
+                                   style="font-size:0.80rem;color:black;font-weight:bolder">
+                                @post.commentCnt
+                            </small>
+                        </div>
+                        <div class="text-center">
+                            <i class="bi bi-send" style="font-size:1.6rem; cursor:pointer;"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="bi bi-bookmark" style="font-size:1.6rem; cursor:pointer;"></i>
+                    </div>
+                </div>
+
+                <p class="mb-1"><strong>@post.likeCnt</strong> likes</p>
+
+                @if (!string.IsNullOrEmpty(post.caption))
+                {
+                    <p class="mb-1"><strong>@post.user.username</strong> @post.caption</p>
+                }
+
+                <p class="text-muted mb-1">View all @post.commentCnt comments</p>
+                <small class="text-muted">@post.timeAgo</small>
+            </div>
+        </div>
+    }
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var postId = @ViewBag.PostId;  
+        var element = document.getElementById("post-" + postId);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+    });
+</script>
+

@@ -1,0 +1,94 @@
+﻿@model Instagram.Models.FeedViewModel
+
+@* <div class="container mt-4" style="max-width:600px;"> *@
+
+@*     <!-- ================= Stories Section ================= --> *@
+@*     <div class="d-flex mb-3 overflow-auto"> *@
+@*         @foreach (var story in Model.stories) *@
+@*         { *@
+@*             <div class="me-3 text-center"> *@
+@*                 <img src="@story.user.profile" *@
+@*                      class="rounded-circle" *@
+@*                      style="width:60px;height:60px; border:3px solid deeppink; padding:2px;" *@
+@*                      alt="@story.user.username" /> *@
+@*                 <small class="d-block text-truncate" style="max-width:70px">@story.user.username</small> *@
+@*             </div> *@
+@*         } *@
+@*     </div> *@
+
+@*     <!-- ================= Posts Section ================= --> *@
+@*     @foreach (var post in Model.posts) *@
+@*     { *@
+@*         <div class="card mb-4 shadow-sm"> *@
+
+@*             <!-- Post Header --> *@
+@*             <div class="card-header d-flex align-items-center bg-white border-0"> *@
+@*                 <img src="@post.user.profile" class="rounded-circle me-2" width="40" height="40" alt="@post.user.username" /> *@
+@*                 <div> *@
+@*                     <strong>@post.user.username</strong><br /> *@
+@*                     @if (!string.IsNullOrEmpty(post.location)) *@
+@*                     { *@
+@*                         <small class="text-muted">@post.location</small> *@
+@*                     } *@
+@*                 </div> *@
+@*                 <div class="ms-auto"> *@
+@*                     <span class="fw-bold" style="cursor:pointer;">•••</span> *@
+@*                 </div> *@
+@*             </div> *@
+
+@*             <!-- Post Media --> *@
+@*             @* <img src="@post.media" class="card-img-top" alt="post media" /> *@ 
+
+@*             <!-- Post Actions --> *@
+@*             <div class="card-body pb-2"> *@
+
+@*                 <!-- Instagram Style Action Bar --> *@
+@*                 <div class="d-flex justify-content-between align-items-center mb-2"> *@
+@*                     <div class="d-flex align-items-center"> *@
+@*                         <!-- Like --> *@
+@*                         <div class="text-center me-3"> *@
+@*                             <i class="bi bi-heart" style="font-size:1.6rem; cursor:pointer;"></i> *@
+@*                         </div> *@
+
+@*                         <!-- Comment --> *@
+@*                         <div class="text-center me-3"> *@
+@*                             <i class="bi bi-chat" style="font-size:1.6rem; cursor:pointer;"></i> *@
+@*                             <small class="text-muted" style="font-size:0.80rem;color:black;font-weight:bolder">@post.commentCnt</small> *@
+@*                         </div> *@
+
+@*                         <!-- Share --> *@
+@*                         <div class="text-center"> *@
+@*                             <i class="bi bi-send" style="font-size:1.6rem; cursor:pointer;"></i> *@
+@*                         </div> *@
+@*                     </div> *@
+
+@*                     <!-- Bookmark --> *@
+@*                     <div> *@
+@*                         <i class="bi bi-bookmark" style="font-size:1.6rem; cursor:pointer;"></i> *@
+@*                     </div> *@
+@*                 </div> *@
+
+@*                 <!-- Likes --> *@
+@*                 <p class="mb-1"><strong>@post.likeCnt</strong> likes</p> *@
+
+@*                 <!-- Caption --> *@
+@*                 @if (!string.IsNullOrEmpty(post.caption)) *@
+@*                 { *@
+@*                     <p class="mb-1"><strong>@post.user.username</strong> @post.caption</p> *@
+@*                 } *@
+
+@*                 <!-- Tagged People --> *@
+@*                 @if (!string.IsNullOrEmpty(post.tagPeople)) *@
+@*                 { *@
+@*                     <p class="text-muted mb-1">Tagged: @post.tagPeople</p> *@
+@*                 } *@
+
+@*                 <!-- Comments link --> *@
+@*                 <p class="text-muted mb-1">View all @post.commentCnt comments</p> *@
+
+@*                 <!-- Time --> *@
+@*                 <small class="text-muted">@post.timeAgo</small> *@
+@*             </div> *@
+@*         </div> *@
+@*     } *@
+@* @* </div> *@
