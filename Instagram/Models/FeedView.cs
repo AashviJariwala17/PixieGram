@@ -39,7 +39,6 @@ namespace Instagram.Models
         public string type { get; set; }
         public List<Story> stories { get; set; } = new List<Story>();
         public List<Post> data { get; set; } = new List<Post>();
-        public List<Post> posts { get; set; } = new List<Post>();
 
     }
 }

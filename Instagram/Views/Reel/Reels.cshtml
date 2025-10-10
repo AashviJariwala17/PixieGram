@@ -1,0 +1,76 @@
+﻿@model Instagram.Models.FeedViewModel
+
+<div class="container-fluid p-0" style="max-width:600px;">
+
+    @foreach (var post in Model.data)
+    {
+        <div class="reel-container mb-4" style="position:relative; height:100vh; overflow:hidden; background:black;">
+
+            <!-- ================= Bottom Overlay: User Info + Caption + Follow ================= -->
+            <div class="p-3"
+                 style="position:absolute; bottom:20px; left:10px; z-index:10; color:white; width:92%;">
+
+                <div class="d-flex align-items-center mb-2">
+                    <!-- Profile -->
+                    <img src="@(string.IsNullOrEmpty(post?.user?.profile)
+                                ? Url.Content("~/images/defaultProfilePic.jpg")
+                                : post?.user?.profile)"
+                         class="rounded-circle me-2" height="50" width="50" />
+
+                    <!-- Username -->
+                    <span style="font-weight:700; font-size:1.2rem;">@post?.user?.username</span>
+
+                    <!-- Follow Button -->
+                    <button class="btn btn-lg ms-auto"
+                            style="border:2px solid white; background:transparent; color:white; font-weight:600; padding:4px 20px; font-size:1rem;">
+                        Follow
+                    </button>
+                </div>
+
+                <!-- Caption -->
+                @if (!string.IsNullOrEmpty(post.caption))
+                {
+                    <p style="font-size:1.1rem; font-weight:400; margin-left:55px;">
+                        @post.caption
+                    </p>
+                }
+            </div>
+
+            <!-- ================= Fullscreen Video ================= -->
+            @if (post.media != null)
+            {
+                foreach (var item in post.media)
+                {
+                    <video autoplay loop muted
+                           style="width:100%; height:100%; object-fit:cover;">
+                        <source src="@item.url" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                }
+            }
+
+            <!-- ================= Right Side Action Bar ================= -->
+            <div class="action-bar"
+                 style="position:absolute; right:15px; bottom:120px; display:flex; flex-direction:column; align-items:center; gap:25px; color:white;">
+
+                <!-- Like -->
+                <div class="text-center">
+                    <i class="bi bi-heart" style="font-size:2rem; cursor:pointer;"></i><br />
+                    <small>@post.likeCnt</small>
+                </div>
+
+                <!-- Comment -->
+                <div class="text-center">
+                    <i class="bi bi-chat" style="font-size:2rem; cursor:pointer;"></i><br />
+                    <small>@post.commentCnt</small>
+                </div>
+
+                <!-- Share -->
+                <div class="text-center">
+                    <i class="bi bi-send" style="font-size:2rem; cursor:pointer;"></i>
+                </div>
+
+            </div>
+        </div>
+    }
+</div>
