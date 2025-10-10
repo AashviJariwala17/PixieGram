@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wu3lXYVdKNI=",
+  "dgSpecHash": "U9FBX/JZ7TQ=",
   "success": true,
-  "projectFilePath": "E:\\My_work\\SEM7\\Project\\Instagram\\Instagram.csproj",
+  "projectFilePath": "D:\\SEM_7\\Project\\Project_Frontend\\PixieGram\\Instagram\\Instagram.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

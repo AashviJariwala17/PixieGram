@@ -25,7 +25,9 @@
                 <!-- Menu -->
                 <i class="bi bi-house-door fs-4 mb-3" title="Home"></i>
                 <i class="bi bi-search fs-4 mb-3" title="Search"></i>
-                <img src="~/images/reel.png" alt="Reels" width="27" height="27" class="mb-3" title="Reels" />
+                <a href="@Url.Action("Reels","Reel")" style="text-decoration:none;color:black">
+                    <img src="~/images/reel.png" alt="Reels" width="27" height="27" class="mb-3" title="Reels" />
+                </a>
                 <img src="~/images/icons8-chat-bubble-50.png" alt="Messages" width="27" height="27" class="mb-3" title="Messages" />
                 <i class="bi bi-plus-square fs-4 mb-3" title="Create"></i>
                 <a href="@Url.Action("Profile","Profile",new { id = 0 })" style="text-decoration:none;color:black">

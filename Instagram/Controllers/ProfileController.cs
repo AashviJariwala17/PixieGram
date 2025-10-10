@@ -55,7 +55,7 @@ namespace Instagram.Controllers
                 if (id != 0)
                 {
                     ViewBag.postId = id;
-                    return View("LoadPosts",viewModel);
+                    return View("MyPosts",viewModel);
                 }
                 else
                 {

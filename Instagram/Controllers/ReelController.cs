@@ -3,23 +3,24 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
-using System.Security.Policy;
 
 namespace Instagram.Controllers
 {
-    public class PostController : Controller
+
+    public class ReelController : Controller
     {
+
         private readonly string url;
-        public PostController(IConfiguration configuration)
+        public ReelController(IConfiguration configuration)
         {
             url = configuration["ApiSettings:url"];
         }
+        // GET: ReelController
         public ActionResult Index()
         {
             return View();
         }
-        // GET: PostController
-        public async Task<ActionResult> Dashboard()
+        public async Task<ActionResult> Reels()
         {
             try
             {
@@ -30,13 +31,13 @@ namespace Instagram.Controllers
                 using var httpClient = new HttpClient();
                 httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-                var postsTask = httpClient.GetAsync(url + "/posts/getOtherPost");
+                var reelsTask = httpClient.GetAsync(url + "/posts/getOtherReel");
 
                 var viewModel = new FeedViewModel();
 
-                if (postsTask.Result.IsSuccessStatusCode)
+                if (reelsTask.Result.IsSuccessStatusCode)
                 {
-                    string apiResponse2 = await postsTask.Result.Content.ReadAsStringAsync();
+                    string apiResponse2 = await reelsTask.Result.Content.ReadAsStringAsync();
                     viewModel = JsonConvert.DeserializeObject<FeedViewModel>(apiResponse2);
                 }
                 return View(viewModel);
@@ -47,20 +48,19 @@ namespace Instagram.Controllers
                 return View();
             }
         }
-
-        // GET: PostController/Details/5
+        // GET: ReelController/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: PostController/Create
+        // GET: ReelController/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: PostController/Create
+        // POST: ReelController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
@@ -75,13 +75,13 @@ namespace Instagram.Controllers
             }
         }
 
-        // GET: PostController/Edit/5
+        // GET: ReelController/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: PostController/Edit/5
+        // POST: ReelController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
@@ -96,13 +96,13 @@ namespace Instagram.Controllers
             }
         }
 
-        // GET: PostController/Delete/5
+        // GET: ReelController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: PostController/Delete/5
+        // POST: ReelController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
