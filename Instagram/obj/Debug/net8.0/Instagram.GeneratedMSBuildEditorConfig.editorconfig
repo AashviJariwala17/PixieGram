@@ -56,8 +56,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/My_work/SEM7/Project/Instagram/Views/Profile/LoadPosts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxMb2FkUG9zdHMuY3NodG1s
+[E:/My_work/SEM7/Project/Instagram/Views/Profile/MyPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxNeVBvc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/My_work/SEM7/Project/Instagram/Views/Profile/MyReels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxNeVJlZWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/My_work/SEM7/Project/Instagram/Views/Profile/Profile.cshtml]

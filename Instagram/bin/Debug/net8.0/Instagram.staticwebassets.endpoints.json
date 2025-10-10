@@ -577,6 +577,170 @@
       ]
     },
     {
+      "Route": "images/likes.cwc8sbzkhw.png",
+      "AssetFile": "images/likes.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tDRq5+hM7QSzegFdN0ZlcEMOKn9CPOvwaXICxELl0xM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 13:23:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cwc8sbzkhw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tDRq5+hM7QSzegFdN0ZlcEMOKn9CPOvwaXICxELl0xM="
+        },
+        {
+          "Name": "label",
+          "Value": "images/likes.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/likes.png",
+      "AssetFile": "images/likes.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tDRq5+hM7QSzegFdN0ZlcEMOKn9CPOvwaXICxELl0xM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 13:23:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tDRq5+hM7QSzegFdN0ZlcEMOKn9CPOvwaXICxELl0xM="
+        }
+      ]
+    },
+    {
+      "Route": "images/likes_blank.edup8mdttw.jpg",
+      "AssetFile": "images/likes_blank.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ApbXOTvdSjtTzPm8hRxSxy70JQs5FbW3wh9T3vXLLzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 13:28:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "edup8mdttw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ApbXOTvdSjtTzPm8hRxSxy70JQs5FbW3wh9T3vXLLzE="
+        },
+        {
+          "Name": "label",
+          "Value": "images/likes_blank.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/likes_blank.jpg",
+      "AssetFile": "images/likes_blank.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ApbXOTvdSjtTzPm8hRxSxy70JQs5FbW3wh9T3vXLLzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 13:28:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ApbXOTvdSjtTzPm8hRxSxy70JQs5FbW3wh9T3vXLLzE="
+        }
+      ]
+    },
+    {
       "Route": "images/nature.11vizb0xya.jpeg",
       "AssetFile": "images/nature.jpeg",
       "Selectors": [],

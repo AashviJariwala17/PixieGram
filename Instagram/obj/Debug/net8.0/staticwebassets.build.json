@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0Tcnb79pdEP7ptLXVGpcFkHpBMvhskOOXaQsdv++7FM=",
+  "Hash": "/ees6SFKScIy/oypRMVMh+ruDrYo/oeDqUCmkzwcgAk=",
   "Source": "Instagram",
   "BasePath": "_content/Instagram",
   "Mode": "Default",
@@ -183,6 +183,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\icons8-chat-bubble-50.png"
+    },
+    {
+      "Identity": "E:\\My_work\\SEM7\\Project\\Instagram\\wwwroot\\images\\likes.png",
+      "SourceId": "Instagram",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\My_work\\SEM7\\Project\\Instagram\\wwwroot\\",
+      "BasePath": "_content/Instagram",
+      "RelativePath": "images/likes#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cwc8sbzkhw",
+      "Integrity": "tDRq5+hM7QSzegFdN0ZlcEMOKn9CPOvwaXICxELl0xM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\likes.png"
+    },
+    {
+      "Identity": "E:\\My_work\\SEM7\\Project\\Instagram\\wwwroot\\images\\likes_blank.jpg",
+      "SourceId": "Instagram",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\My_work\\SEM7\\Project\\Instagram\\wwwroot\\",
+      "BasePath": "_content/Instagram",
+      "RelativePath": "images/likes_blank#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "edup8mdttw",
+      "Integrity": "ApbXOTvdSjtTzPm8hRxSxy70JQs5FbW3wh9T3vXLLzE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\likes_blank.jpg"
     },
     {
       "Identity": "E:\\My_work\\SEM7\\Project\\Instagram\\wwwroot\\images\\nature.jpeg",
@@ -1977,6 +2019,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-xDN+unakiX7UK23GYU+RUaV4yeluc8QVkXuoNzjdR1U="
+        }
+      ]
+    },
+    {
+      "Route": "images/likes.cwc8sbzkhw.png",
+      "AssetFile": "E:\\My_work\\SEM7\\Project\\Instagram\\wwwroot\\images\\likes.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tDRq5+hM7QSzegFdN0ZlcEMOKn9CPOvwaXICxELl0xM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 13:23:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cwc8sbzkhw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/likes.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tDRq5+hM7QSzegFdN0ZlcEMOKn9CPOvwaXICxELl0xM="
+        }
+      ]
+    },
+    {
+      "Route": "images/likes.png",
+      "AssetFile": "E:\\My_work\\SEM7\\Project\\Instagram\\wwwroot\\images\\likes.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tDRq5+hM7QSzegFdN0ZlcEMOKn9CPOvwaXICxELl0xM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 13:23:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tDRq5+hM7QSzegFdN0ZlcEMOKn9CPOvwaXICxELl0xM="
+        }
+      ]
+    },
+    {
+      "Route": "images/likes_blank.edup8mdttw.jpg",
+      "AssetFile": "E:\\My_work\\SEM7\\Project\\Instagram\\wwwroot\\images\\likes_blank.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ApbXOTvdSjtTzPm8hRxSxy70JQs5FbW3wh9T3vXLLzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 13:28:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "edup8mdttw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/likes_blank.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ApbXOTvdSjtTzPm8hRxSxy70JQs5FbW3wh9T3vXLLzE="
+        }
+      ]
+    },
+    {
+      "Route": "images/likes_blank.jpg",
+      "AssetFile": "E:\\My_work\\SEM7\\Project\\Instagram\\wwwroot\\images\\likes_blank.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ApbXOTvdSjtTzPm8hRxSxy70JQs5FbW3wh9T3vXLLzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 13:28:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ApbXOTvdSjtTzPm8hRxSxy70JQs5FbW3wh9T3vXLLzE="
         }
       ]
     },

@@ -229,3 +229,4 @@ E:\My_work\SEM7\Project\Instagram\obj\Debug\net8.0\refint\Instagram.dll
 E:\My_work\SEM7\Project\Instagram\obj\Debug\net8.0\Instagram.pdb
 E:\My_work\SEM7\Project\Instagram\obj\Debug\net8.0\Instagram.genruntimeconfig.cache
 E:\My_work\SEM7\Project\Instagram\obj\Debug\net8.0\ref\Instagram.dll
+E:\My_work\SEM7\Project\Instagram\obj\Debug\net8.0\Instagram.sourcelink.json

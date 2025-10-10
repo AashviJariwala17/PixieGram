@@ -29,6 +29,14 @@
       "PackagePath": "staticwebassets\\images\\icons8-chat-bubble-50.png"
     },
     {
+      "Id": "E:\\My_work\\SEM7\\Project\\Instagram\\wwwroot\\images\\likes.png",
+      "PackagePath": "staticwebassets\\images\\likes.png"
+    },
+    {
+      "Id": "E:\\My_work\\SEM7\\Project\\Instagram\\wwwroot\\images\\likes_blank.jpg",
+      "PackagePath": "staticwebassets\\images\\likes_blank.jpg"
+    },
+    {
       "Id": "E:\\My_work\\SEM7\\Project\\Instagram\\wwwroot\\images\\nature.jpeg",
       "PackagePath": "staticwebassets\\images\\nature.jpeg"
     },

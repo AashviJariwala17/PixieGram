@@ -4,6 +4,8 @@ wwwroot\images\butterfly.jpeg
 wwwroot\images\defaultProfilePic.jpg
 wwwroot\images\flower.jpeg
 wwwroot\images\icons8-chat-bubble-50.png
+wwwroot\images\likes.png
+wwwroot\images\likes_blank.jpg
 wwwroot\images\nature.jpeg
 wwwroot\images\noPostYet.png
 wwwroot\images\postGrid.png

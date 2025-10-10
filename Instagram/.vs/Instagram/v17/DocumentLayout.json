@@ -3,120 +3,20 @@
   "WorkspaceRootPath": "E:\\My_work\\SEM7\\Project\\Instagram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\profile\\loadposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\profile\\loadposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\models\\feedview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:models\\feedview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\shared\\_postpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\shared\\_postpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\post\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\post\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\authentication\\suggestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\authentication\\suggestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\profile\\updateuserdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\profile\\updateuserdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\shared\\_reelpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\shared\\_reelpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\authentication\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\authentication\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\models\\usersuggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:models\\usersuggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\authentication\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\authentication\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\shared\\_authenticationlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\shared\\_authenticationlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|e:\\my_work\\sem7\\project\\instagram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA8BFBE3-DC5B-45FC-A0FB-E5DBA55CA2E4}|Instagram.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,25 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_PostPartial.cshtml",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_PostPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_PostPartial.cshtml",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_PostPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_PostPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAsMzMzMzMzwBMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-27T09:03:01.278Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -153,350 +39,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAA8AAACgmZmZmZk0wBoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T10:21:20.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoadPosts.cshtml",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Profile\\LoadPosts.cshtml",
-              "RelativeDocumentMoniker": "Views\\Profile\\LoadPosts.cshtml",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Profile\\LoadPosts.cshtml",
-              "RelativeToolTip": "Views\\Profile\\LoadPosts.cshtml",
-              "ViewState": "AgIAABoAAABgMzMzMzMzwCYAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-27T12:50:40.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA0AAACAMzMzMzMTwB4AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T11:28:50.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Post\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "Views\\Post\\Dashboard.cshtml",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Post\\Dashboard.cshtml",
-              "RelativeToolTip": "Views\\Post\\Dashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-19T13:38:35.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Suggestions.cshtml",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Authentication\\Suggestions.cshtml",
-              "RelativeDocumentMoniker": "Views\\Authentication\\Suggestions.cshtml",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Authentication\\Suggestions.cshtml",
-              "RelativeToolTip": "Views\\Authentication\\Suggestions.cshtml",
-              "ViewState": "AgIAAEoAAADgzMzMzMwswFsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T07:06:35.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FeedView.cs",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\FeedView.cs",
-              "RelativeDocumentMoniker": "Models\\FeedView.cs",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\FeedView.cs",
-              "RelativeToolTip": "Models\\FeedView.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAIAxwCkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T12:10:40.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Profile\\Profile.cshtml",
-              "RelativeDocumentMoniker": "Views\\Profile\\Profile.cshtml",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Profile\\Profile.cshtml",
-              "RelativeToolTip": "Views\\Profile\\Profile.cshtml",
-              "ViewState": "AgIAAAkAAABIMzMzMzMzwCkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-19T13:40:28.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-20T05:11:44.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Profile.cs",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\Profile.cs",
-              "RelativeDocumentMoniker": "Models\\Profile.cs",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\Profile.cs",
-              "RelativeToolTip": "Models\\Profile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T13:08:21.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UpdateUserDetails.cshtml",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Profile\\UpdateUserDetails.cshtml",
-              "RelativeDocumentMoniker": "Views\\Profile\\UpdateUserDetails.cshtml",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Profile\\UpdateUserDetails.cshtml",
-              "RelativeToolTip": "Views\\Profile\\UpdateUserDetails.cshtml",
-              "ViewState": "AgIAAAAAAABAMzMzMzMjwAoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-24T11:19:19.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_ReelPartial.cshtml",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_ReelPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ReelPartial.cshtml",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_ReelPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ReelPartial.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-27T09:05:25.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "PostController.cs",
               "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Controllers\\PostController.cs",
               "RelativeDocumentMoniker": "Controllers\\PostController.cs",
               "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Controllers\\PostController.cs",
               "RelativeToolTip": "Controllers\\PostController.cs",
-              "ViewState": "AgIAAIYAAAAABAAAAAAIwD8AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T12:24:10.643Z"
+              "WhenOpened": "2025-10-10T05:44:39.488Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T13:47:27.55Z"
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-10T05:41:24.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T13:17:10.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Response.cs",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\Response.cs",
-              "RelativeDocumentMoniker": "Models\\Response.cs",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\Response.cs",
-              "RelativeToolTip": "Models\\Response.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T10:30:24.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
               "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAJMAAAAAaGZmZmY8wKgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T11:30:44.04Z"
+              "WhenOpened": "2025-10-10T05:35:30.976Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T09:05:18.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Authentication\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "Views\\Authentication\\SignUp.cshtml",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Authentication\\SignUp.cshtml",
-              "RelativeToolTip": "Views\\Authentication\\SignUp.cshtml",
-              "ViewState": "AgIAAB8AAADAzMzMzMwswBEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T11:32:12.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UserSuggestion.cs",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\UserSuggestion.cs",
-              "RelativeDocumentMoniker": "Models\\UserSuggestion.cs",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\UserSuggestion.cs",
-              "RelativeToolTip": "Models\\UserSuggestion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T06:55:29.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "VerifyOtp.cshtml",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Authentication\\VerifyOtp.cshtml",
-              "RelativeDocumentMoniker": "Views\\Authentication\\VerifyOtp.cshtml",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Authentication\\VerifyOtp.cshtml",
-              "RelativeToolTip": "Views\\Authentication\\VerifyOtp.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T13:07:01.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AgIAADkAAAAAAAAAAAAYwFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-18T13:31:59.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-19T10:07:53.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SignUp.cs",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\SignUp.cs",
-              "RelativeDocumentMoniker": "Models\\SignUp.cs",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\SignUp.cs",
-              "RelativeToolTip": "Models\\SignUp.cs",
-              "ViewState": "AgIAAAoAAACgmZmZmZkywBoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T11:53:11.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Authentication\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Authentication\\Login.cshtml",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Authentication\\Login.cshtml",
-              "RelativeToolTip": "Views\\Authentication\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T11:36:11.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "_AuthenticationLayout.cshtml",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_AuthenticationLayout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_AuthenticationLayout.cshtml",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_AuthenticationLayout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_AuthenticationLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-19T12:58:37.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T13:31:34.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Login.cs",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "Models\\Login.cs",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Models\\Login.cs",
-              "RelativeToolTip": "Models\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:07:25.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\My_work\\SEM7\\Project\\Instagram\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\My_work\\SEM7\\Project\\Instagram\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T11:36:46.117Z"
+              "WhenOpened": "2025-10-10T05:43:57.134Z",
+              "EditorCaption": ""
             }
           ]
         }

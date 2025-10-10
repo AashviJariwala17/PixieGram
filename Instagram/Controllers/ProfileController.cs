@@ -23,7 +23,7 @@ namespace Instagram.Controllers
             return View();
         }
         // GET: ProfileController
-        public async Task<ActionResult> Profile(int id)
+        public async Task<ActionResult> Profile(int id,string type)
         {
             try
             {
@@ -36,6 +36,8 @@ namespace Instagram.Controllers
 
                 var profileTask = httpClient.GetAsync(url + "/user/userProfile");
                 var postsTask = httpClient.GetAsync(url + "/posts/getOwnPost");
+                var reelsTask =  httpClient.GetAsync(url + "/posts/getOwnReel");
+
 
                 await Task.WhenAll(profileTask, postsTask);
 
@@ -52,14 +54,25 @@ namespace Instagram.Controllers
                     string apiResponse2 = await postsTask.Result.Content.ReadAsStringAsync();
                     viewModel.UserPosts = JsonConvert.DeserializeObject<FeedViewModel>(apiResponse2);
                 }
-                if (id != 0)
+
+                if (type=="post")
                 {
                     ViewBag.postId = id;
-                    return View("LoadPosts",viewModel);
+                    return View("MyPosts",viewModel);
+                }
+                else if(type == "reel")
+                {
+                    if (reelsTask.Result.IsSuccessStatusCode)
+                    {
+                        string apiResponse3 = await reelsTask.Result.Content.ReadAsStringAsync();
+                        viewModel.UserPosts = JsonConvert.DeserializeObject<FeedViewModel>(apiResponse3);
+                    }
+                    ViewBag.reelId = id;
+                    return View("MyReels", viewModel);
                 }
                 else
                 {
-                    return View(viewModel);
+                   return View(viewModel);
                 }
             }
             catch (Exception ex)
@@ -92,7 +105,7 @@ namespace Instagram.Controllers
             using var httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var reelsResponse = await httpClient.GetAsync(url + "/posts/getOwnReel"); // <-- your reels API
+            var reelsResponse = await httpClient.GetAsync(url + "/posts/getOwnReel"); 
             if (reelsResponse.IsSuccessStatusCode)
             {
                 string apiResponse = await reelsResponse.Content.ReadAsStringAsync();
