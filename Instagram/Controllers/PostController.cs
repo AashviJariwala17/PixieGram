@@ -48,8 +48,7 @@ namespace Instagram.Controllers
             }
         }
 
-        // GET: PostController/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Likes(int id,string type)
         {
             return View();
         }
