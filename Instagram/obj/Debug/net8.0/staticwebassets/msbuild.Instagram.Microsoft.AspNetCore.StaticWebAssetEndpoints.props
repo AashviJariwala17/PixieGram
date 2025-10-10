@@ -72,6 +72,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xDN\u002BunakiX7UK23GYU\u002BRUaV4yeluc8QVkXuoNzjdR1U="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"949"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xDN\u002BunakiX7UK23GYU\u002BRUaV4yeluc8QVkXuoNzjdR1U=\u0022"},{"Name":"Last-Modified","Value":"Tue, 30 Sep 2025 07:45:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Instagram/images/likes.cwc8sbzkhw.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\likes.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cwc8sbzkhw"},{"Name":"integrity","Value":"sha256-tDRq5\u002BhM7QSzegFdN0ZlcEMOKn9CPOvwaXICxELl0xM="},{"Name":"label","Value":"_content/Instagram/images/likes.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18772"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tDRq5\u002BhM7QSzegFdN0ZlcEMOKn9CPOvwaXICxELl0xM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 30 Sep 2025 13:23:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Instagram/images/likes.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\likes.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tDRq5\u002BhM7QSzegFdN0ZlcEMOKn9CPOvwaXICxELl0xM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"18772"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tDRq5\u002BhM7QSzegFdN0ZlcEMOKn9CPOvwaXICxELl0xM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 30 Sep 2025 13:23:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Instagram/images/likes_blank.edup8mdttw.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\likes_blank.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"edup8mdttw"},{"Name":"integrity","Value":"sha256-ApbXOTvdSjtTzPm8hRxSxy70JQs5FbW3wh9T3vXLLzE="},{"Name":"label","Value":"_content/Instagram/images/likes_blank.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3224"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ApbXOTvdSjtTzPm8hRxSxy70JQs5FbW3wh9T3vXLLzE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 30 Sep 2025 13:28:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Instagram/images/likes_blank.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\likes_blank.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ApbXOTvdSjtTzPm8hRxSxy70JQs5FbW3wh9T3vXLLzE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3224"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ApbXOTvdSjtTzPm8hRxSxy70JQs5FbW3wh9T3vXLLzE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 30 Sep 2025 13:28:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Instagram/images/nature.11vizb0xya.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\nature.jpeg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

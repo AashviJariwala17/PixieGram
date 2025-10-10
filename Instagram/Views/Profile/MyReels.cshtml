@@ -25,11 +25,10 @@
             {
                 foreach (var item in post.media)
                 {
-                    <img src="@(string.IsNullOrEmpty(item.url)
-                                ? Url.Content("~/images/defaultProfilePic.jpg")
-                                : item.url)"
-                         alt="post"
-                         style="height:300px; width:100%; object-fit:cover;" />
+                    <video width="100%" height="450" autoplay>
+                        <source src="@item.url" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 }
             }
 
@@ -38,7 +37,7 @@
                 <div class="d-flex justify-content-between align-items-center mb-2">
                     <div class="d-flex align-items-center">
                         <div class="text-center me-3">
-                            <img src="~/images/likes_blank.jpg" height="40" width="43" />
+                            <i class="bi bi-heart" style="font-size:1.6rem; cursor:pointer;"></i>
                         </div>
                         <div class="text-center me-3">
                             <i class="bi bi-chat" style="font-size:1.6rem; cursor:pointer;"></i>
@@ -72,7 +71,7 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        var postId = @ViewBag.PostId;  
+        var postId = @ViewBag.reelId;
         var element = document.getElementById("post-" + postId);
         if (element) {
             element.scrollIntoView({ behavior: "smooth", block: "center" });
